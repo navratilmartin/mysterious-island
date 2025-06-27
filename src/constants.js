@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:4173";
+const BASE_URL = window.location.origin;
 const LEVELS_FOLDER_PATH = "src/levels";
 
 const ISLAND_LEVEL_URL = `${BASE_URL}/${LEVELS_FOLDER_PATH}/island/`;

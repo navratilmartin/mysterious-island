@@ -1,0 +1,21 @@
+{
+  "name": "mysterious-island-3d-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "aframe": "^1.7.1",
+    "aframe-extras": "^7.5.4",
+    "aframe-physics-system": "git://github.com/n5ro/aframe-physics-system.git"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "vite": "^6.3.5"
+  }
+}

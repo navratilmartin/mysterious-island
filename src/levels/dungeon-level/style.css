@@ -1,0 +1,13 @@
+#health-container {
+    width: 20%;
+    border: 2px solid white;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 2;
+}
+
+#health-container__progress {
+    background-color: red;
+    height: 28px;
+}

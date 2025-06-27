@@ -11,6 +11,7 @@ export default defineConfig({
                 main: resolve(__dirname, "index.html"),
                 islandLevel: resolve(__dirname, "src/levels/island/index.html"),
                 pirateLevel: resolve(__dirname, "src/levels/pirate-level/index.html"),
+                dungeonLevel: resolve(__dirname, "src/levels/dungeon-level/index.html"),
                 end: resolve(__dirname, "src/levels/end-screen/index.html"),
             },
         },
